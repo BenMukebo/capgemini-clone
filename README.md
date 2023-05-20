@@ -12,4 +12,5 @@ $ npx tailwindcss init
 # Start the Tailwind CLI build process
 $ npx tailwindcss -i ./src/input-style.css -o ./public/output-style.css --watch
 $ npm run watch-css
+$ npm run dev
 ```
