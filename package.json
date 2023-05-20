@@ -4,7 +4,8 @@
   "description": "This a gym exercise that consist of clone an existing website by using only tailwindcss for styling",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "npx tailwindcss -i ./src/input-style.css -o ./public/output-style.css --watch"
   },
   "repository": {
     "type": "git",
