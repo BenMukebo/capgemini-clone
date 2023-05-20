@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BenMukebo/capgemini-clone/issues"
   },
-  "homepage": "https://github.com/BenMukebo/capgemini-clone#readme"
+  "homepage": "https://github.com/BenMukebo/capgemini-clone#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
 }
