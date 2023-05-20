@@ -1,0 +1,19 @@
+{
+  "name": "capgemini-clone",
+  "version": "1.0.0",
+  "description": "This a gym exercise that consist of clone an existing website by using only tailwindcss for styling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenMukebo/capgemini-clone.git"
+  },
+  "author": "Ben_Mukebo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BenMukebo/capgemini-clone/issues"
+  },
+  "homepage": "https://github.com/BenMukebo/capgemini-clone#readme"
+}
