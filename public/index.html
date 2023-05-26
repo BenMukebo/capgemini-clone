@@ -11,6 +11,7 @@
   <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <!-- bg-gradient-to-b from-black via-transparent to-white -->
   <header class="fixed top-0 inset-x-0 z-10 h-[72px] bg-[#eee] flex justify-between items-center px-4 sm:px-6 lg:px-[7%]">
     <div>
       <img src="./img/mobile-logo.svg" alt="logo" class="w-full object-cover">
@@ -41,23 +42,23 @@
     </nav>
   </header>
 
-  <main class="w-full f-full min-h-screen pt-[72px] ">
-    <section class="block w-full h-full mb-16" style="height: 500px;">
+  <main class="w-full f-full min-h-screen pt-[0px] ">
+    <section class="block w-full mb-16 h-[500px] md:h-[800px] lg:h-[850px]">
     <div class="relative w-full h-full bg-center bg-cover "
     style='background-image: url("./img/intro-bg.jpeg");'
     >
-      <div class="p-24 px-4 text-white rounded bg-sky-500 absolute bottom-[-60px] inset-x-[5%] sm:inset-x-[10%] md:w-3/5 xl:max-w-xl md:bottom-[40px]">
-        <h1 class="mb-4 text-3xl leading-10 uppercase">INTEGRATED ANNUAL REPORT 2022</h1>
-        <p class="intro__text text-lg">Unlocking the value of technology.</p>
+      <div class="py-20 px-4 text-white rounded bg-gradient-to-br from-[rgba(0,63,97,.9)] to-[rgba(0,123,189,.9)] absolute bottom-[-60px] inset-x-[5%] sm:inset-x-[10%] md:w-2/5 md:px-6 xl:max-w-xl md:bottom-[50px]">
+        <h1 class="mb-4 text-3xl leading-10 font-bold md:text-4xl md:leading-[52px] uppercase">INTEGRATED ANNUAL REPORT 2022</h1>
+        <p class="text-lg font-medium md:text-xl">Unlocking the value of technology.</p>
       </div>
     </div>
     </section>
-    <section class="w-full bg-[#ccc] py-8 px-4">
-      <div class="w-full min-h-[400px] bg-[#ccc] flex items-center flex-col mx-auto md:w-10/12 lg:flex-row-reverse ">
+    <section class="w-full bg-[] py-8 px-4">
+      <div class="w-full min-h-[400px] bg-[#] flex items-center flex-col mx-auto md:w-10/12 lg:flex-row-reverse ">
         <div class="bg-red-500 h-auto bgw-9/12-center lg:w-[560px] lg:h-[320px]" >
           <img src="./img/henghiap.png" alt="" class="w-full object-cover lg:h-full">
         </div>
-        <div class="w-11/12 h-[230px] bg-white p-4 text-black flex flex-col justify-between -translate-y-[60px] lg:-translate-y-[0]">
+        <div class="w-11/12 h-[230px] bg-white p-4 text-black flex flex-col justify-between -translate-y-[60px] lg:-translate-y-[0] lg:shadow-inner">
           <p class="text-center text-md">
             More life for plastics. Better quality of life.
           </p>
@@ -100,4 +101,5 @@
 </body>
 </html>
 
-<!-- linear-gradient(244deg,rgba(0,123,189,.9),rgba(0,63,97,.9)); -->
+<!-- linear-gradient(244deg,rgba(0,123,189,.9),rgba(0,63,97,.9));
+rgba(0,0,0,.14901960 -->
