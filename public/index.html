@@ -24,14 +24,14 @@
         <li><a href="#">Investors</a></li>
         <li><a href="#">Contact us</a></li>
       </ul>
-      <div class="flex items-center">
-        <button title="search" class="mx-4 w-6 h-6">
+      <div class="flex items-center gap-x-2">  <!--  divide-x-2 divide-white -->
+        <button title="search" class=" w-9 h-6 pr-3 border-e-2 border-white">
           <!-- <i class="fa fa-search" style="font-size:20px"></i> -->
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
           </svg>          
         </button>
-        <button title="open-burger" type="button" class="berger text-black w-8 h-8">
+        <button title="open-burger" type="button" class="berger text-black ml-2 w-8 h-8">
           <!-- <i class="fa fa-bars" style="font-size:26px"></i> -->
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -62,9 +62,12 @@
             More life for plastics. Better quality of life.
           </p>
           <div class="self-end">
-            <button class=" flex items-center px-2 border-2 border-solid border-black rounded-md">
-              <span>READ MORE</span>
-              <i style='font-size:24px' class='fas'>&#xf061;</i>
+            <button class="flex items-center  w-8 h-6">
+              <span class="hidden md:block px-2 border-2 border-solid border-black rounded-md">READ MORE</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+              </svg>
+              
             </button>
           </div>
         </div>
