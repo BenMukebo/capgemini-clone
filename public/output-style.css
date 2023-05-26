@@ -1589,6 +1589,14 @@ video {
     height: 320px;
   }
 
+  .xl\:h-\[00px\] {
+    height: 00px;
+  }
+
+  .xl\:h-\[480px\] {
+    height: 480px;
+  }
+
   .xl\:w-10\/12 {
     width: 83.333333%;
   }
@@ -1599,6 +1607,10 @@ video {
 
   .xl\:w-\[400px\] {
     width: 400px;
+  }
+
+  .xl\:w-\[520px\] {
+    width: 520px;
   }
 
   .xl\:max-w-xl {
