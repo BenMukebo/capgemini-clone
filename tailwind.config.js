@@ -27,6 +27,7 @@ module.exports = {
         'black': '#15011d',
       },
       boxShadow: {
+        'custom': '0 25px 100px 0 rgba(0, 0, 0, .1490196078)',
         '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
       },
       backgroundImage: {
