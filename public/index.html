@@ -12,12 +12,12 @@
 </head>
 <body>
   <!-- bg-gradient-to-b from-black via-transparent to-white -->
-  <header class="fixed top-0 inset-x-0 z-10 h-[72px] bg-[#eee] flex justify-between items-center px-4 sm:px-6 lg:px-[7%]">
-    <div>
+  <header class="fixed top-0 inset-x-0 z-10 h-[72px] bg-gradient-to-b from-black/90 to-black/5 flex justify-between items-center px-4 sm:px-6 lg:px-[5%]">
+    <div class="">
       <img src="./img/mobile-logo.svg" alt="logo" class="w-full object-cover">
     </div>
-    <nav class="flex items-center justify-between lg:w-9/12">
-      <ul class="hidden lg:flex justify-between items-center mr-5 gap-4 xl:gap-6 ">
+    <nav class="flex items-center justify-between lg:w-9/12 xl:w-10/12">
+      <ul class="hidden text-white font-semibold lg:flex justify-between items-center mr-5 gap-4 xl:gap-6 ">
         <li><a href="#">About us</a></li>
         <li><a href="#">What we do</a></li>
         <li><a href="#">Insights</a></li>
@@ -25,14 +25,14 @@
         <li><a href="#">Investors</a></li>
         <li><a href="#">Contact us</a></li>
       </ul>
-      <div class="flex items-center gap-x-2">  <!--  divide-x-2 divide-white -->
-        <button title="search" class=" w-9 h-6 pr-3 border-e-2 border-white">
+      <div class="flex items-center gap-x-1 text-white">  <!--  divide-x-2 divide-white -->
+        <button title="search" class=" w-9 h-6 pr-3 border-e-1 border-white">
           <!-- <i class="fa fa-search" style="font-size:20px"></i> -->
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
           </svg>          
         </button>
-        <button title="open-burger" type="button" class="berger text-black ml-2 w-8 h-8">
+        <button title="open-burger" type="button" class="ml-2 w-8 h-8">
           <!-- <i class="fa fa-bars" style="font-size:26px"></i> -->
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
