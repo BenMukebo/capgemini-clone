@@ -14,18 +14,18 @@ module.exports = {
       xl: "1200px",
       "2xl": "1480px",
     },
-    colors: {
-      'primary': '#171717',
-      'secondary': '#0070ad',
-      'white': '#fff',
-      'black': '#15011d',
-    },
     fontFamily: {
       'sans': ['Poppins', 'sans-serif'],
       'serif': ['Poppins', 'serif'],
       // 'body': ['Open Sans', '...fontFamilly.sans'],
     },
     extend: {
+      colors: {
+        'primary': '#171717',
+        'secondary': '#0070ad',
+        'white': '#fff',
+        'black': '#15011d',
+      },
       boxShadow: {
         '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
       },
